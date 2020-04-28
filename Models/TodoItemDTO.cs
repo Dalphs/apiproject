@@ -1,9 +1,9 @@
-namespace TodoAPI.Models
+namespace TodoApi.Models
 {
     public class TodoItemDTO
-    {
-        public lond Id { get; set; }
-        public string Name { get; set; }
-        public bool IsComplete { get; set; }
-    }
+{
+    public long Id { get; set; }
+    public string Name { get; set; }
+    public bool IsComplete { get; set; }
+}
 }
